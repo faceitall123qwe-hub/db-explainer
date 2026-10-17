@@ -1,0 +1,208 @@
+{
+  "Metadata": [
+    {
+      "Type": "WordBoundary",
+      "Data": {
+        "Offset": 1000000,
+        "Duration": 5787080,
+        "text": {
+          "Text": "Таблицы",
+          "Length": 7,
+          "BoundaryType": "WordBoundary"
+        }
+      }
+    },
+    {
+      "Type": "WordBoundary",
+      "Data": {
+        "Offset": 6787080,
+        "Duration": 5208330,
+        "text": {
+          "Text": "связаны",
+          "Length": 7,
+          "BoundaryType": "WordBoundary"
+        }
+      }
+    },
+    {
+      "Type": "WordBoundary",
+      "Data": {
+        "Offset": 11995410,
+        "Duration": 3009160,
+        "text": {
+          "Text": "между",
+          "Length": 5,
+          "BoundaryType": "WordBoundary"
+        }
+      }
+    },
+    {
+      "Type": "WordBoundary",
+      "Data": {
+        "Offset": 15004580,
+        "Duration": 4629580,
+        "text": {
+          "Text": "собой",
+          "Length": 5,
+          "BoundaryType": "WordBoundary"
+        }
+      }
+    },
+    {
+      "Type": "WordBoundary",
+      "Data": {
+        "Offset": 27930410,
+        "Duration": 5324160,
+        "text": {
+          "Text": "Заказ",
+          "Length": 5,
+          "BoundaryType": "WordBoundary"
+        }
+      }
+    },
+    {
+      "Type": "WordBoundary",
+      "Data": {
+        "Offset": 33254580,
+        "Duration": 3935000,
+        "text": {
+          "Text": "хранит",
+          "Length": 6,
+          "BoundaryType": "WordBoundary"
+        }
+      }
+    },
+    {
+      "Type": "WordBoundary",
+      "Data": {
+        "Offset": 37190000,
+        "Duration": 2893330,
+        "text": {
+          "Text": "номер",
+          "Length": 5,
+          "BoundaryType": "WordBoundary"
+        }
+      }
+    },
+    {
+      "Type": "WordBoundary",
+      "Data": {
+        "Offset": 40083330,
+        "Duration": 4861250,
+        "text": {
+          "Text": "клиента",
+          "Length": 7,
+          "BoundaryType": "WordBoundary"
+        }
+      }
+    },
+    {
+      "Type": "WordBoundary",
+      "Data": {
+        "Offset": 47143330,
+        "Duration": 1273330,
+        "text": {
+          "Text": "а",
+          "Length": 1,
+          "BoundaryType": "WordBoundary"
+        }
+      }
+    },
+    {
+      "Type": "WordBoundary",
+      "Data": {
+        "Offset": 48416660,
+        "Duration": 3819580,
+        "text": {
+          "Text": "запрос",
+          "Length": 6,
+          "BoundaryType": "WordBoundary"
+        }
+      }
+    },
+    {
+      "Type": "WordBoundary",
+      "Data": {
+        "Offset": 52236250,
+        "Duration": 1504580,
+        "text": {
+          "Text": "с",
+          "Length": 1,
+          "BoundaryType": "WordBoundary"
+        }
+      }
+    },
+    {
+      "Type": "WordBoundary",
+      "Data": {
+        "Offset": 53740830,
+        "Duration": 4397910,
+        "text": {
+          "Text": "джойном",
+          "Length": 7,
+          "BoundaryType": "WordBoundary"
+        }
+      }
+    },
+    {
+      "Type": "WordBoundary",
+      "Data": {
+        "Offset": 58138750,
+        "Duration": 4398330,
+        "text": {
+          "Text": "соединяет",
+          "Length": 9,
+          "BoundaryType": "WordBoundary"
+        }
+      }
+    },
+    {
+      "Type": "WordBoundary",
+      "Data": {
+        "Offset": 62537080,
+        "Duration": 4397910,
+        "text": {
+          "Text": "заказы",
+          "Length": 6,
+          "BoundaryType": "WordBoundary"
+        }
+      }
+    },
+    {
+      "Type": "WordBoundary",
+      "Data": {
+        "Offset": 66935000,
+        "Duration": 810000,
+        "text": {
+          "Text": "с",
+          "Length": 1,
+          "BoundaryType": "WordBoundary"
+        }
+      }
+    },
+    {
+      "Type": "WordBoundary",
+      "Data": {
+        "Offset": 67745410,
+        "Duration": 3703750,
+        "text": {
+          "Text": "именами",
+          "Length": 7,
+          "BoundaryType": "WordBoundary"
+        }
+      }
+    },
+    {
+      "Type": "WordBoundary",
+      "Data": {
+        "Offset": 71449160,
+        "Duration": 5555410,
+        "text": {
+          "Text": "клиентов",
+          "Length": 8,
+          "BoundaryType": "WordBoundary"
+        }
+      }
+    }
+  ]
+}

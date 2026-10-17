@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head><meta charset="UTF-8"></head>
+  <body>
+    <template>
+      <style>
+#s02-root { position:absolute; inset:0; }
+#s02-root .stage { position:absolute; inset:0; }
+#s02-root .hd { position:absolute; left:140px; top:96px; }
+#s02-root .tb { position:absolute; border-radius:22px; background:var(--panel); border:1.5px solid var(--line); overflow:hidden; }
+#s02-root .tr { display:flex; height:76px; align-items:center; border-top:1.5px solid var(--line); position:relative; }
+#s02-root .tr.th { border-top:none; color:var(--muted); background:#0e1311; }
+#s02-root .tc { padding:0 24px; white-space:nowrap; }
+
+#s02-root .hl { position:absolute; border-radius:14px; border:3px solid var(--green); background:rgba(62,224,143,.06); }
+#s02-root .rowhl { left:370px; top:416px; width:1160px; height:76px; }
+#s02-root .colhl { left:750px; top:340px; width:480px; height:380px; border-color:var(--yellow); background:rgba(245,197,24,.06); }
+#s02-root .lr { position:absolute; left:370px; top:760px; color:var(--green); }
+#s02-root .lc { position:absolute; left:750px; top:810px; color:var(--yellow); }
+
+      </style>
+      <div data-hf-id="hf-8ks8" id="s02-root" data-composition-id="s02" data-width="1920" data-height="1080">
+        <div data-hf-id="hf-tan6" class="stage">
+
+<h1 data-hf-id="hf-bks6" class="hd">Данные в <span data-hf-id="hf-45s3" class="g">таблицах</span></h1>
+<div data-hf-id="hf-zuzj" class="tb t" style="left:370px; top:340px; width:1160px">
+<div data-hf-id="hf-k0e6" class="tr th"><span data-hf-id="hf-56d7" class="tc lb c0" style="width:140px">id</span><span data-hf-id="hf-u1ld" class="tc lb c1" style="width:240px">имя</span><span data-hf-id="hf-d6vz" class="tc lb c2" style="width:480px">почта</span><span data-hf-id="hf-iuog" class="tc lb c3" style="width:300px">город</span></div>
+<div data-hf-id="hf-gtjw" class="tr r0"><span data-hf-id="hf-9wm2" class="tc mono c0" style="width:140px">1</span><span data-hf-id="hf-ccpz" class="tc mono c1" style="width:240px">Анна</span><span data-hf-id="hf-ze0s" class="tc mono c2" style="width:480px">anna@mail.ru</span><span data-hf-id="hf-xnj2" class="tc mono c3" style="width:300px">Варшава</span></div>
+<div data-hf-id="hf-hl7p" class="tr r1"><span data-hf-id="hf-aax3" class="tc mono c0" style="width:140px">2</span><span data-hf-id="hf-hfvw" class="tc mono c1" style="width:240px">Иван</span><span data-hf-id="hf-uloa" class="tc mono c2" style="width:480px">ivan@mail.ru</span><span data-hf-id="hf-k8ma" class="tc mono c3" style="width:300px">Краков</span></div>
+<div data-hf-id="hf-ljbq" class="tr r2"><span data-hf-id="hf-ap84" class="tc mono c0" style="width:140px">3</span><span data-hf-id="hf-g2rr" class="tc mono c1" style="width:240px">Анна</span><span data-hf-id="hf-tt7z" class="tc mono c2" style="width:480px">anna.k@mail.ru</span><span data-hf-id="hf-zmtt" class="tc mono c3" style="width:300px">Гданьск</span></div>
+<div data-hf-id="hf-phfr" class="tr r3"><span data-hf-id="hf-b3j5" class="tc mono c0" style="width:140px">4</span><span data-hf-id="hf-x0q2" class="tc mono c1" style="width:240px">Олег</span><span data-hf-id="hf-4n7h" class="tc mono c2" style="width:480px">oleg@mail.ru</span><span data-hf-id="hf-nkn6" class="tc mono c3" style="width:300px">Варшава</span></div>
+</div>
+<div data-hf-id="hf-e0ks" class="hl rowhl"></div><div data-hf-id="hf-kf0m" class="hl colhl"></div>
+<div data-hf-id="hf-r18p" class="lr lb">строка = запись</div><div data-hf-id="hf-a1jn" class="lc lb">столбец = поле</div>
+        </div>
+      </div>
+      <script>
+        (function () {
+          var R = "#s02-root ";
+          var $ = function (s) { return R + s; };
+          var V = function (w) { return w + 0.3; };
+          var E = "power3.out", IO = "power2.inOut";
+          var tl = gsap.timeline({ paused: true });
+          function type(sel, t, step) {
+            var els = document.querySelectorAll(R + sel + " .ch");
+            for (var i = 0; i < els.length; i++) tl.set(els[i], { display: "inline" }, t + i * (step || 0.045));
+          }
+          function draw(sel, t, d) {
+            tl.fromTo($(sel), { strokeDasharray: 1, strokeDashoffset: 1 }, { strokeDashoffset: 0, duration: d || 0.5, ease: "power2.out" }, t);
+          }
+          tl.fromTo($(".stage"), { opacity: 0, filter: "blur(8px)" }, { opacity: 1, filter: "blur(0px)", duration: 0.5, ease: "power2.out" }, 0);
+tl.fromTo($(".hd"), { opacity: 0, y: 24 }, { opacity: 1, y: 0, duration: 0.7, ease: E }, 0.2);
+tl.fromTo($(".t"), { opacity: 0, y: 20 }, { opacity: 1, y: 0, duration: 0.6, ease: E }, V(1.4));
+tl.fromTo($(".t .tr:not(.th)"), { opacity: 0, x: -10 }, { opacity: 1, x: 0, duration: 0.35, ease: E, stagger: 0.12 }, V(3.0));
+tl.fromTo([$(".rowhl"), $(".lr")], { opacity: 0 }, { opacity: 1, duration: 0.4 }, V(4.7));
+tl.to($(".rowhl"), { opacity: 0, duration: 0.3 }, V(5.9));
+tl.fromTo([$(".colhl"), $(".lc")], { opacity: 0 }, { opacity: 1, duration: 0.4 }, V(6.05));
+tl.to($(".colhl"), { opacity: 0, duration: 0.3 }, V(7.4));
+tl.to($(".t .th .c1"), { color: "#3ee08f", duration: 0.3 }, V(7.7));
+tl.to($(".t .th .c2"), { color: "#3ee08f", duration: 0.3 }, V(8.2));
+tl.to($(".t .th .c3"), { color: "#3ee08f", duration: 0.3 }, V(8.8));
+
+          tl.to($(".stage"), { opacity: 0, filter: "blur(6px)", y: -10, duration: 0.4, ease: "power2.inOut" }, 9.65);
+          window.__timelines["s02"] = tl;
+        })();
+      </script>
+    </template>
+  </body>
+</html>

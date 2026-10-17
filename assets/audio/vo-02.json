@@ -1,0 +1,244 @@
+{
+  "Metadata": [
+    {
+      "Type": "WordBoundary",
+      "Data": {
+        "Offset": 1000000,
+        "Duration": 4976660,
+        "text": {
+          "Text": "Самые",
+          "Length": 5,
+          "BoundaryType": "WordBoundary"
+        }
+      }
+    },
+    {
+      "Type": "WordBoundary",
+      "Data": {
+        "Offset": 5976660,
+        "Duration": 5324160,
+        "text": {
+          "Text": "популярные",
+          "Length": 10,
+          "BoundaryType": "WordBoundary"
+        }
+      }
+    },
+    {
+      "Type": "WordBoundary",
+      "Data": {
+        "Offset": 11300830,
+        "Duration": 3356660,
+        "text": {
+          "Text": "базы",
+          "Length": 4,
+          "BoundaryType": "WordBoundary"
+        }
+      }
+    },
+    {
+      "Type": "WordBoundary",
+      "Data": {
+        "Offset": 14657500,
+        "Duration": 7870410,
+        "text": {
+          "Text": "реляционные",
+          "Length": 11,
+          "BoundaryType": "WordBoundary"
+        }
+      }
+    },
+    {
+      "Type": "WordBoundary",
+      "Data": {
+        "Offset": 30361250,
+        "Duration": 5323750,
+        "text": {
+          "Text": "Данные",
+          "Length": 6,
+          "BoundaryType": "WordBoundary"
+        }
+      }
+    },
+    {
+      "Type": "WordBoundary",
+      "Data": {
+        "Offset": 35685000,
+        "Duration": 4398330,
+        "text": {
+          "Text": "хранятся",
+          "Length": 8,
+          "BoundaryType": "WordBoundary"
+        }
+      }
+    },
+    {
+      "Type": "WordBoundary",
+      "Data": {
+        "Offset": 40083330,
+        "Duration": 347080,
+        "text": {
+          "Text": "в",
+          "Length": 1,
+          "BoundaryType": "WordBoundary"
+        }
+      }
+    },
+    {
+      "Type": "WordBoundary",
+      "Data": {
+        "Offset": 40430410,
+        "Duration": 5208330,
+        "text": {
+          "Text": "таблицах",
+          "Length": 8,
+          "BoundaryType": "WordBoundary"
+        }
+      }
+    },
+    {
+      "Type": "WordBoundary",
+      "Data": {
+        "Offset": 46680410,
+        "Duration": 4398330,
+        "text": {
+          "Text": "строки",
+          "Length": 6,
+          "BoundaryType": "WordBoundary"
+        }
+      }
+    },
+    {
+      "Type": "WordBoundary",
+      "Data": {
+        "Offset": 51078750,
+        "Duration": 1620410,
+        "text": {
+          "Text": "это",
+          "Length": 3,
+          "BoundaryType": "WordBoundary"
+        }
+      }
+    },
+    {
+      "Type": "WordBoundary",
+      "Data": {
+        "Offset": 52699160,
+        "Duration": 4629580,
+        "text": {
+          "Text": "записи",
+          "Length": 6,
+          "BoundaryType": "WordBoundary"
+        }
+      }
+    },
+    {
+      "Type": "WordBoundary",
+      "Data": {
+        "Offset": 59065000,
+        "Duration": 1388750,
+        "text": {
+          "Text": "а",
+          "Length": 1,
+          "BoundaryType": "WordBoundary"
+        }
+      }
+    },
+    {
+      "Type": "WordBoundary",
+      "Data": {
+        "Offset": 60453750,
+        "Duration": 4513750,
+        "text": {
+          "Text": "столбцы",
+          "Length": 7,
+          "BoundaryType": "WordBoundary"
+        }
+      }
+    },
+    {
+      "Type": "WordBoundary",
+      "Data": {
+        "Offset": 64967500,
+        "Duration": 2083330,
+        "text": {
+          "Text": "это",
+          "Length": 3,
+          "BoundaryType": "WordBoundary"
+        }
+      }
+    },
+    {
+      "Type": "WordBoundary",
+      "Data": {
+        "Offset": 67050830,
+        "Duration": 3009160,
+        "text": {
+          "Text": "поля",
+          "Length": 4,
+          "BoundaryType": "WordBoundary"
+        }
+      }
+    },
+    {
+      "Type": "WordBoundary",
+      "Data": {
+        "Offset": 72837910,
+        "Duration": 4050830,
+        "text": {
+          "Text": "например",
+          "Length": 8,
+          "BoundaryType": "WordBoundary"
+        }
+      }
+    },
+    {
+      "Type": "WordBoundary",
+      "Data": {
+        "Offset": 76888750,
+        "Duration": 3819580,
+        "text": {
+          "Text": "имя",
+          "Length": 3,
+          "BoundaryType": "WordBoundary"
+        }
+      }
+    },
+    {
+      "Type": "WordBoundary",
+      "Data": {
+        "Offset": 81865830,
+        "Duration": 5092500,
+        "text": {
+          "Text": "почта",
+          "Length": 5,
+          "BoundaryType": "WordBoundary"
+        }
+      }
+    },
+    {
+      "Type": "WordBoundary",
+      "Data": {
+        "Offset": 86958330,
+        "Duration": 1157500,
+        "text": {
+          "Text": "и",
+          "Length": 1,
+          "BoundaryType": "WordBoundary"
+        }
+      }
+    },
+    {
+      "Type": "WordBoundary",
+      "Data": {
+        "Offset": 88115830,
+        "Duration": 4282500,
+        "text": {
+          "Text": "город",
+          "Length": 5,
+          "BoundaryType": "WordBoundary"
+        }
+      }
+    }
+  ]
+}
